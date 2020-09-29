@@ -1,0 +1,7 @@
+---
+- name: Test playbook
+  hosts: localhost
+  gather_facts: False
+  tasks:
+    - name: debug tasks
+      debug: var=vars
